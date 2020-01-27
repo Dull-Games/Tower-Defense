@@ -1,7 +1,7 @@
 ﻿using System;
+using Building;
 
-
-public class Tower
+public class Tower : Building
 {
 	private string name;
 	private string type;
