@@ -2,19 +2,20 @@
 
 public class Enemy
 {
-	string name;
-	string type;
-	int health;
-	int speed;
+	private string name;
+	private string type;
+	private int health;
+	private int speed;
 
-	Path path;
-	
-	public Enemy(Path path)
+	public Enemy(string name, string type, int health = 1, int speed = 1)
 	{
-		this.path = path;
+		this.name = name;
+		this.type = type;
+		this.health = health;
+		this.speed = speed;
 	}
 
-	void Move()
+	public void Move()
 	{
 
 	}
