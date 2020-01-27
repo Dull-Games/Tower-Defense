@@ -6,10 +6,12 @@ public class Enemy
 	string type;
 	int health;
 	int speed;
-	
-	public Enemy()
-	{
 
+	Path path;
+	
+	public Enemy(Path path)
+	{
+		this.path = path;
 	}
 
 	void Move()

@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 public class Tower
 {
 	string name;
@@ -17,4 +18,9 @@ public class Tower
 	{
 
 	}
+
+	List<Enemy> FindEnemiesInRange()
+  {
+
+  }
 }
